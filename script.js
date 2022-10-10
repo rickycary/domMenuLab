@@ -1,4 +1,10 @@
-console.log("Connected")
+// Menu data structure
+var menuLinks = [
+    {text: 'about', href: '/about'},
+    {text: 'catalog', href: '/catalog'},
+    {text: 'orders', href: '/orders'},
+    {text: 'account', href: '/account'},
+  ];
 
 // Task 1.0
 // Select and cache the <main>element in a variable named mainEl.
@@ -54,20 +60,13 @@ topMenuEl.classList.add("flex-around")
 
 // Iterate over the entire menuLinks array and for each "link" object:
 
-//     Create an <a> element.
+// Create an <a> element.
+const a = document.createElement("a")
+console.log(a)
+
+// On the new element, add an href attribute with its value set to the href property of the "link" object.
 
 
-
-//     On the new element, add an href attribute with its value set to the href property of the "link" object.
-
-
-
-//     Set the new element's content to the value of the text property of the "link" object.
-
-
-
-//     Append the new element to the topMenuEl element.
-
-
+// Set the new element's content to the value of the text property of the "link" object.
 
 
